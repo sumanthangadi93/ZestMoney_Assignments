@@ -5,6 +5,7 @@
     <classes>
       <class name="com.qa.testcases.FlipkartTestCases">
         <methods>
+          <include name="tearDown"/>
           <include name="launchBrowser"/>
           <include name="getPriceOfIphoneXrYellow"/>
         </methods>
